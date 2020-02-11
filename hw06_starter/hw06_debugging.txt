@@ -1,0 +1,45 @@
+# ----------------------------------------------------------
+# --------              HW 6: Part 1               ---------
+# ----------------------------------------------------------
+
+# ----------------------------------------------------------
+# Name: Alexa Canaan
+# Time spent on part 1: 1 hour
+# Collaborators and sources: n/a
+#   (List any collaborators or sources here.)
+# ----------------------------------------------------------
+
+# For each error you identified, provide a brief (1-2 
+# sentence) description of the error and how you fixed it
+
+# Sequence 1
+Error #1 - i never changes value, resulting in an infinite loop
+I fixed the error by making i an accumulator variable and adding 1 at the end of each iteration of the while loop
+Error #2 - when the test is passed through, only [5, 10] is returned; count 3 should be inclusive. I fixed the error by changing the while loop from ‘while i < count:’ to ‘while i < count + 1:’
+
+
+# Sequence 2
+
+Error #1 - the if statement was accumulating the wrong variable.
+I fixed the error by changing i += 1 to j += 1 because j is keeping track of the number of values we have found, not i.
+
+Error #2 - I switched the accumulator variable at the end of the while loop from j += 1 to i += 1 because i is the variable that iterates over the phrase. It needs to increase by 1 in order to change which index in the phrase the program should look at. 
+
+# Sequence 3
+
+Error #1- i must start at 0 and not 1 as an accumvar because if it is iterating over the length of data, the first index must be iterated over and that is index 0, not 1.
+
+Error #2- to fix IndexError, the while loop has to be changed from i <= len(data) to i < len(data) because when i = len(data) in the test case there is an index error because the there are 3 objects in data, but the program is looking for a 4th obj which is not there.
+
+Error #3- in the while loop, it performs mathematical operations on the numbers in the list themselves, not just adding the item to the list seq depending on its index.
+I fixed the error by adding another while loop and accumvar. The first while loop now iterates over each item in the list, and the second while loop adds the item by the number of the index it is at in the list
+
+# Sequence 4
+
+Error #1 - moved w = ‘’ into the first while loops so that the words preceding each word isn’t added into each sublist, aka w is reset to an empty set after the while loop is passed through
+
+Error #2- the order the words were printed were in chronological order instead of backwards order. I fixed this error by changing seq.append([w]) to seq.insert(0, [w])
+
+Error #3- to get the sublist removed, I changed seq.insert(0, [w]) to seq.insert(0, w)
+
+

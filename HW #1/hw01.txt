@@ -1,0 +1,38 @@
+# ----------------------------------------------------------
+# --------              HW 1: Part 1               ---------
+# ----------------------------------------------------------
+
+# ----------------------------------------------------------
+# Please answer these questions after having completed this
+# program
+# ----------------------------------------------------------
+# Name: Alexa Canaan
+# Time spent on part 1: 10 minutes
+# Time spent on part 2: 35 minutes
+# Collaborators and sources: none
+#   (List any collaborators or sources here.)
+# ----------------------------------------------------------
+
+
+# Write your responses to the questions in part 1 below:
+
+I have no questions on the syllabus.
+I have no questions about academic integrity in this course. Everything that I turn in should be my own work. Meeting and discussing things is fine, but I can’t take anyone’s code or part of their code and use it as my own. I must be explicit about who I work with.
+
+# Write your answer to the question in part 2 below:
+
+How to wash a dish
+
+Assumptions:
+-someone knows how to use certain objects (sponges, sinks, eating materials)
+
+1. Be in the kitchen at a/the sink with a drying rack or other drying mechanism next to the sink.
+2. Assuming the dirty dish is in the sink, turn the sink on with the water at a warm temperature anywhere between the middle and hottest setting, depending on your own preference and comfort.
+3. Grab dish soap and put 2 pea sized amounts of soap on a sponge.
+4. Grab the dish with your less dominant hand and the sponge with the soap in your dominant hand.
+5. Rub the soapy side of the sponge onto the dish in a circular motion. Make sure to cover the whole dish. Keep rubbing until you don’t see any more stains of food or grease.
+6. Repeat on the other side.
+7. Put the sponge down. Rinse the dish by putting it under the running water until soap bubbles stop coming off of the dish.
+8. Put the dish on the drying rack and turn off the sink. 
+9. Continue to drying procedure or repeat the washing procedure with other dishes.
+

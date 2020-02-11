@@ -1,0 +1,23 @@
+# ----------------------------------------------------------
+# --------              HW 3: Part 2               ---------
+# ----------------------------------------------------------
+
+# ----------------------------------------------------------
+# Name: Alexa Canaan
+# Time spent on part 2: 45 minutes
+# Collaborators and sources: n/a
+#   (List any collaborators or sources here.)
+# ----------------------------------------------------------
+
+# For each error you identified, provide a brief (1-2
+# sentence) description of the error and how you fixed it
+
+1. I indented the if statement in the for loop and then indented each other the other lines one indent further (the print and num_factors are nested under the if statement which is nested under the for loop) because the syntax rules for a for loop require the body must be indented. Also, when there is an if statement the directions that must be carried out when the if statement is true must be indented as well.
+
+2. I changed the else in the second if statement to an elif because otherwise it creates a syntax error.
+
+3. I put the x + 1 on line 25 into a range function because a for loop cannot iterate an integer by itself, it will create a Type error. 
+
+4. I made the range function range(1, x+1) because in line 26, when Python computes x % i, the first thing it will compute will be the remainder of dividing by 0 which cannot be done in Python or in math in general. When the range starts at 1, then division can occur.
+
+5. I fixed the accumulator variable of num_factors = 1 to num_factors += 1 otherwise it is not an accumulator variable, but an assignment statement. However, in this code, we are trying to accumulate a number of factors which is what num_factors is supposed to be doing, not acting as a local variable.

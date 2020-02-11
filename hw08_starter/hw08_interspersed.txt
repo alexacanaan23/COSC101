@@ -1,0 +1,13 @@
+This is not a Haiku.
+
+An old silent pond...
+A frog jumps into the pond,
+splash! Silence again.
+
+All of this sentence will be part of a haiku.
+
+A summer river being crossed
+how pleasing
+with sandals in my hands!
+
+Our algorithm will split the above haiku.

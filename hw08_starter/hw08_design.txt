@@ -1,0 +1,35 @@
+# ----------------------------------------------------------
+# --------              HW 8: Part 1               ---------
+# ----------------------------------------------------------
+
+# ----------------------------------------------------------
+# Name: Alexa Canaan	
+# Time spent on part 1: 45 minutes
+# Collaborators and sources:
+#   (List any collaborators or sources here.)
+# ----------------------------------------------------------
+
+def openReadFile(filename):
+	‘’’ask the user for the name of the file of text in which they want to find haikus
+	if the user enters the name of a file that does not exist, the program should print the error “File not found” and exit.
+	format the file using read(), putting into lower case, stripping punctuation’’’
+
+def openWriteFile(filename, syllablecountfile):
+	‘’’creates an empty haiku file called haikus.txt, writing one haiku per line.
+	the haikus are lower case without any punctuation, separated into respective phrases using forward slashes
+	reads each word in the given file and adds the word of the text to the haiku.’’’
+
+def writeFile5(line):
+	‘’’checks if the number of syllables in the line and haiku is less than 5’’’
+
+def writeFile12(line):
+	‘’’checks if the number of syllables in the haiku is less than 12,
+	checks if the number of syllables in the line is 7’’’
+
+def writeFile17(line):
+	‘’’checks if the number of syllables in the haiku is less than 17,
+	checks if the number of syllables in the line is 5’’’
+
+def haikuCount():
+	‘’’displays the total number of haikus found in the text’’’
+

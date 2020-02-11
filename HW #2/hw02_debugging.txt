@@ -1,0 +1,20 @@
+# ----------------------------------------------------------
+# --------              HW 2: Part 2               ---------
+# ----------------------------------------------------------
+
+# ----------------------------------------------------------
+# Name:Alexa Canaan
+# Time spent on part 2: 25 minutes
+# Collaborators and sources: n/a
+#   (List any collaborators or sources here.)
+# ----------------------------------------------------------
+
+# For each error you identified, provide a brief (1-2 
+# sentence) description of the error and how you fixed it
+
+1. converted ‘inches’ from str to int by putting int( ) around the input function so that feet could be converted
+2. commented out line 3 and put inches % 12 into line 4 so that meters = inches / 39.3701 used the inches given not the remainder inches
+3. on line 4, changed ‘’ ‘ to “‘ “ and ‘“‘ to ‘“ ‘ in order to change most of the line from part of a string to true string addition with consistent quotation marks
+4. converted meters to a float by putting float( ) around the equation so that kilometers could be calculated with a float
+5. changed meters in line 6 to str(meters) so that the + could add two strings
+6. added and end parenthesis ) to line 6 to complete the input statement so the string wouldn’t continue onto the next line
